@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.hero nav{
+    background-color: white;
+    width: 100%;
+    padding: 7px 15px 15px 15px;
+    box-shadow: 1px 1px 7px 1px grey;
+    height: 30px;
+    position: fixed;
+    z-index: 99;
+}
+
+.hero nav p a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 14px;
+    color: black;
+    float: left;
+    margin-right: 750px;
+    letter-spacing: 5px;
+}
+
+.hero nav p a span{
+    padding: 5px 8px;
+    font-weight: 700;
+}
+
+.hero nav p a:hover{
+    background-color: #ddd;
+}
+
+.hero nav ul{
+    text-decoration: none;
+    margin-top: 9px;
+}
+
+.hero nav ul li{
+    display: inline-block;
+}
+
+.hero nav ul li a{
+    text-decoration: none;
+    padding: 10px 14px;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+.hero nav ul li a:hover{
+    background-color: #ddd;
+}
+
+.hero .banner{
+    position: relative;
+}
+
+.hero .banner p{
+    position: absolute;
+    bottom: 350px;
+    left: 500px;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.hero .banner p span{
+    padding: 10px 10px;
+    font-weight: 700;
+    background-color: black;
+}
+
+.hero .projects p{
+    padding: 15px 30px;
+    font-size: 30px;
+    padding-top: 60px;
+}
+
+.hero .line{
+    width: 1280px;
+    height: 0.5px;
+    margin: 30px auto;
+    margin-top: -5px;
+    background-color: rgba(204, 92, 92, 0.116);
+}
+
+
+.hero .images{
+    padding: 5px 10px 5px;
+}
+
+.hero .images .image{
+    display: inline-block;
+    padding-left: 14px;
+    padding-bottom: 5px;
+    margin-top: -50px;
+}
+
+.hero .image p{
+    font-size: 18px;
+    padding: 20px 15px;
+}
+
+.hero .image p span{
+    padding: 8px 10px;
+    background-color: black;
+    color: white;
+    position: relative;
+    right: 15px;
+    top: 50px;
+}
+
+.hero .about{
+    padding: 12px 30px;
+    padding-top: 55px;
+}
+
+.hero .about .content p span{
+    font-size: 25px;
+}
+
+.hero .line2{
+    width: 1280px;
+    height: 0.5px;
+    margin: 20px auto;
+    background-color: rgba(204, 92, 92, 0.116);
+}
+
+.hero .about .content p{
+    font-size: 19px;
+}
+
+.hero .profiles{
+    padding: 35px 10px 5px;
+}
+
+.hero .profiles .image{
+    display: inline-block;
+    padding-left: 14px;
+}
+
+.hero .profiles p.title{
+    font-size: 24px;
+    padding: 20px 10px 10px 2px;
+}
+
+.hero .profiles p.mid{
+    font-size: 19px;
+    padding: 20px 10px 10px 2px;
+    color: rgba(0, 0, 0, 0.411);
+}
+
+.hero .profiles p.txt{
+    font-size: 18px;
+    padding: 20px 10px 10px 2px;
+}
+
+.hero .profiles button{
+    padding: 8px 127px;
+    font-size: 18px;
+    /* margin: 50px 50px 50px; */
+    border: none;
+}
+
+.hero .profiles button:hover{
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+.hero .contacts .top{
+    padding: 75px 30px 15px;
+    font-size: 25px;
+}
+
+.hero .line3{
+    width: 1280px;
+    height: 0.5px;
+    margin: 20px auto;
+    background-color: rgba(204, 92, 92, 0.116);
+}
+
+.hero .contacts p{
+    font-size: 18px;
+    padding-left: 28px;
+}
+
+.hero .contacts form{
+    padding-left: 30px;
+    padding-top: 15px;
+    color: rgba(0, 0, 0, 0.137);
+}
+
+.hero form input{
+    width: 97%;
+    height: 35px;
+    margin: 5px 0;
+    text-indent: 5px;
+    border-width: 1 0 1px 0;
+    font-size: 18px;
+    padding: 2px 2px;
+}
+
+.hero .contacts button{
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 15px 0 50px 0;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 25px;
+}
+
+.hero form button:hover{
+    background-color: #b4b4b4;
+    color: black;
+}
+
+.hero .contacts .map{
+    padding-left: 30px;
+}
+
+.hero footer{
+    background-color: black;
+    text-align: center;
+    height: 85px;
+    margin-top: 6px;
+}
+
+.hero footer P{
+    color: white;
+    padding: 10px 10px;
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+}
+
+.hero footer p a{
+    font-size: 16px;
+    color: white;
+}
+
+.hero footer a:hover{
+    color: green;
+}
+
+
+ @media screen and (max-width:1024px)  {
+     .hero nav{
+        width: 1024px;
+        padding: 7px 15px 15px 15px;
+    }
+        
+    .hero nav p a{
+        margin-right: 30%;
+        padding: 10px 35px;
+    }
+    
+    .hero nav ul li{
+        display: inline-block;
+    }
+
+    .hero nav ul li a{
+        padding: 10px 25px;
+        margin: 10px 0px 5px 0px;
+    }
+
+    .hero .banner img{
+        width: 1024px;
+    }
+
+    .hero .banner p{
+        left: 380px;
+    }
+
+    .hero .line{
+        width: 920px;
+    }
+
+    .hero .images img{
+        width: 230px;
+        height: 155px;
+    }
+
+     .hero .line2{
+        width: 920px;
+    }
+
+    .hero .about .content p{
+        font-size: 16px;
+    }
+
+    .hero .profiles img{
+        width: 230px;
+        height: 155px;
+    }
+
+    .hero .profiles .image{
+        display: inline-block;
+        padding-left: 10px;
+    }
+    
+    .hero .profiles p.title{
+        font-size: 20px;
+        padding: 15px 0px 5px 0px;
+    }
+    
+    .hero .profiles p.mid{
+        font-size: 17px;
+        padding: 15px 0px 5px 0px;
+    }
+    
+    .hero .profiles p.txt{
+        font-size: 15px;
+        padding: 15px 0px 5px 0px;
+    }
+    
+    .hero .profiles button{
+        padding: 8px 86px;
+        font-size: 18px;
+        /* margin: 50px 50px 50px; */
+        border: none;
+    }
+
+    .hero .line3{
+        width: 920px;
+    }
+    
+} 
+
+@media screen and (max-width:768px) {
+    .hero nav{
+        width: 768px;
+        padding: 7px 15px 15px 15px;
+    }
+    .hero nav p a{
+        font-size: 18px;
+        padding: 10px 14px;
+        margin-right: 15%;
+        /* letter-spacing: 5px; */
+    }
+    .hero .banner img{
+        width: 768px; 
+        height: 450px;
+    }
+
+    .hero .banner p{
+        left: 250px;
+        bottom: 200px;
+    }
+
+    .hero .line{
+        width: 700px;
+    }
+
+    .hero .images img{
+        width: 350px;
+        height: 200px;
+    }
+
+     .hero .line2{
+        width: 700px;
+    }
+
+    .hero .about .content p{
+        font-size: 20px;
+    }
+
+    .hero .profiles img{
+        width: 350px;
+        height: 200px;
+    }
+
+    .hero .profiles .image{
+        display: inline-block;
+        padding-left: 10px;
+    }
+    
+    .hero .profiles p.title{
+        font-size: 23px;
+        padding: 15px 0px 5px 0px;
+    }
+    
+    .hero .profiles p.mid{
+        font-size: 19px;
+        padding: 15px 0px 5px 0px;
+    }
+    
+    .hero .profiles p.txt{
+        font-size: 18px;
+        padding: 15px 0px 5px 0px;
+    }
+    
+    .hero .profiles button{
+        padding: 8px 145px;
+        font-size: 18px;
+        /* margin: 50px 50px 50px; */
+        border: none;
+        margin: 15px 0 30px 0;
+    }
+
+    .hero .line3{
+        width: 700px;
+    }
+}
+
+
+
+@media screen and (max-width:425px) {
+    .hero nav{
+        width: 425px;
+        padding: 7px 0px 15px 0px;
+    }
+    
+    .hero nav p a{
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px 14px;
+        color: black;
+        float: left;
+        margin-right: 0px;
+        letter-spacing: 4px;
+    }
+    
+    .hero nav ul{
+        display: none;
+    }
+    
+    .hero nav ul li{
+        display: inline-block;
+    }
+    
+    .hero nav ul li a{
+        visibility: hidden;
+    }
+    
+
+    .hero .banner{
+        position: relative;
+    }
+
+    .hero .banner img{
+        width: 425px;
+        height: 240px;
+    }
+    
+    .hero .banner p{
+        bottom: 80px;
+        left: 170px;
+        font-size: 15px;
+        visibility: hidden;
+    }
+    
+    .hero .banner p span{
+        visibility: visible;
+        padding: 13px 13px;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .hero .line{
+        width: 365px;
+        height: 0.5px;
+        margin: 20px auto;
+        margin-top: -5px;
+    }
+
+    .hero .line2{
+        width: 365px;
+        height: 0.5px;
+        margin: 20px auto;
+    }
+
+    .hero .about .content p{
+        font-size: 14px;
+    }
+
+    .hero .profiles .image{
+        display: inline-block;
+        padding-left: 14px;
+        margin-bottom: 50px;
+    }
+
+    .hero .profiles button{
+        margin: 5px 0 0 0; 
+    }
+
+    .hero .contacts .top{
+        padding: 35px 30px 15px;
+        font-size: 25px;
+    }
+
+    .hero .line3{
+        width: 370px;
+    }
+
+    .hero .contacts form{
+        padding-left: 25px;
+        padding-top: 15px;
+    }
+    
+     .hero form input{
+        width: 90%;
+    } 
+
+    .hero .contacts .map img{
+        width: 360px;
+        height: 300px;
+    }
+
+    .hero footer{
+        /* background-color: black;
+        text-align: center;
+        height: 85px;
+        margin-top: 6px; */
+        width: 100%;
+    }
+
+}
